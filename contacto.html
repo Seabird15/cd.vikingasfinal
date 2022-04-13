@@ -28,83 +28,78 @@
                 </section>
             </div>
             <!-- barra de navegacion-->
-            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(226, 245, 245);">
-            <a class="navbar-brand" href="#">Club Deportivo Vikingas</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Club <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="cuerpoTecnico.html">Cuerpo Técnico</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
-                    Equipos
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="primerequipo.html">Competitivo</a>
-                    <a class="dropdown-item" href="segundoequipo.html">Formativo</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </nav>
+            <nav class="navbar navbar-expand-lg navbar-light "  style="background: rgb(175, 216, 240);" >
+              <a class="navbar-brand" href="#">Club Deportivo Vikingas</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Club <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="cuerpoTecnico.html">Cuerpo Técnico</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                      Equipos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="primerequipo.html">Competitivo</a>
+                      <a class="dropdown-item" href="segundoequipo.html">Formativo</a>
+                    </div>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </nav>
          </header>
          <main>
-
-            <form class="formulario" action="" method="get" enctype="application/x-www-form-urlencoded">
-    
-                <fieldset class="formulario__fieldset">
-    
-                    <legend class="formulario__legend">Contáctanos completando el formulario</legend>
-    
-                    <div>
-                        <label class="formulario__label" for="nombre">Nombre</label>
-                        <input class="formulario__input" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
-                    </div>
+           <section class="d-flex justify-content-center p-4">
+            <div class="card col-sm-5 p-4">
+              <div class="mb-3">
+                <h4>CONTACTO</h4>
+              </div>
+              <div class="mb-2">
+                <form action="">
+                  <div class="mb-2">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" name="nombre" id="nombre" placeholder="ej: Gabriel">
+                  </div>
+                  <div class="mb-2">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" name="apellido" id="apellido" placeholder="ej: Soto">
+                  </div>
+                  <div class="mb-2">
+                    <label for="correo">Correo</label>
+                    <input type="text" class="form-control" name="correo" id="nombre" placeholder="ej: gabriel@gmail.com">
+                  </div>
+                  <div class="mb-2">
+                    <label for="sexo">Sexo:</label>
+                    <input type="radio"  name="sexo" id="masculino" value="masculino" > Masculino
+                    <input type="radio"  name="sexo" id="femenino" value="femenino" > Femenino
+                    <input type="radio"  name="sexo" id="No binario" value="No binario" > No binario
+                  </div>
+                  <div class="mb-2">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+                  </div>
+                  <div class="mb-2">
+                    <button class="btn btn-primary">Enviar</button>
                     
-                    <div>
-                        <label class="formulario__label" for="apellido">Apellido</label>
-                        <input class="formulario__input" type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido">
-                    </div>
-                   
-                    <div>
-                        <label class="formulario__label" for="email">E-mail</label>
-                        <input class="formulario__input" type="email" name="email" id="email" placeholder="Ingresa tu E-mail">
-                    </div>
-                                    
-                    <div>
-                        <label class="formulario__label" for="mensaje">Mensaje</label>
-                        <textarea class="formulario__textarea" name="mensaje" id="mensaje"  rows="10"></textarea>
-                    </div>
-    
-                        <select class="formulario__select" name="sexo" id=""> 
-                            <option class="formulario__option" hidden selected>Selecciona tu sexo</option>
-                            <option class="formulario__option" value="Hombre">Hombre</option>
-                            <option class="formulario__option" value="Mujer">Mujer</option>
-                            <option class="formulario__option" value="Otro">Otro</option>
-                        </select>
-                      </div>
-    
-                    <div>
-                        <label class="formulario__label--condiciones" for="terminos-condiciones">Acepto los terminos y condiciones</label>
-                        <input class="formulario__checkbox" type="checkbox" id="terminos-condiciones">
-                    </div>
-                    <br>
-                
-                    <div class="formulario__campo-boton">
-                        <input class="formulario__boton" type="reset" value="Limpiar formulario">
-                        <input class="formulario__boton" type="submit" value="Enviar formulario">
-                    </div>
-                </fieldset>
-            </form>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+            
         </main>
         <footer class="footer">
             <h1 class="titulofooter">
