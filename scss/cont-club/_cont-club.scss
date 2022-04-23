@@ -1,0 +1,80 @@
+.main {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    column-gap: 1rem;
+    margin: 4rem auto 0;
+    width: 100%;
+
+
+    .main__equipo {
+    display: grid;
+    margin: auto;
+    max-width: fit-content;
+
+    }
+    
+
+    .main__parrafo {
+   text-align: center;
+   font-size: $fuente-size-p;
+   color: $color-titulocajas;
+   font-family: $fuente-principal;
+   text-transform: uppercase;
+   background-color: $color-backgroundtextos;
+   width: $tamaño-imagen-caja;
+   padding: 2rem;
+   margin: 1.7rem auto;
+   text-shadow: $sombras;
+    }
+
+    .main__imagen {
+   box-shadow: $sombras-grey;
+   opacity: 0.95;
+   width:600px;
+   height: auto;
+   margin: auto;
+    }
+
+    .main__imagen2 {
+   box-shadow: $sombras-grey;
+   opacity: 0.95;
+   width: 530px;
+   height: auto;
+   margin: auto;
+   
+        }
+        
+    }    
+    hr {
+   width: 80rem;
+   margin: 10rem auto;
+   height: 1px;
+   background-color: #2e3036;
+
+    }
+
+    .nosotros {
+        .nosotros__imagen {
+            grid-column: 1/2;
+            transform: translate(425px);
+        width: 600px;
+
+        }
+         .nosotros__parrafo{
+            margin-top: 2cm;
+            text-align: center;
+            font-family:sans-serif;
+            font-size: 40px;
+        }
+    }
+
+hr {
+    width: 80rem;
+    margin: 10rem auto;
+    height: 1px;
+    background-color: #2e3036;
+
+}
+
