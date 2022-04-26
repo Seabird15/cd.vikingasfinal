@@ -1,0 +1,42 @@
+footer{
+  background: rgb(167,228,210);
+  background: linear-gradient(90deg, rgba(167,228,210,1) 0%, rgba(252,252,252,1) 51%, rgba(137,232,188,1) 100%);    
+}
+.buttons {
+        min-width: 700px;
+        display: flex;
+        justify-content: space-around;
+    
+      
+      a {
+        text-decoration: none;
+        font-size: $fuente-size-b;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        background: $color-backgroundtextos;
+        color: $color-textofooter;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+        transition: all .4s ease-in-out;
+        margin-bottom: 2cm;
+
+        &:hover {
+            transform: scale(1.2);
+          }
+      }
+}
+      
+    
+
+    
+      .titulofooter {
+          font-size: 60px;
+          margin-bottom: 1cm;
+          text-align: center;
+          font-family:'Open Sans', sans-serif;
+          color: aliceblue;
+          text-shadow: 2px 2px 8px black;
+
+      }

@@ -1,0 +1,21 @@
+body {
+    background: rgb(167,228,210);
+    background: linear-gradient(90deg, rgba(167,228,210,1) 0%, rgba(252,252,252,1) 51%, rgba(137,232,188,1) 100%);
+}
+
+
+@import "settings/colores";
+@import "settings/variables";
+@import "generic/box-sizing";
+@import "generic/normalize";
+@import "settings/layout";
+@import "settings/tipografia";
+@import "Header/header";
+@import "cont-club/cont-club";
+@import "cont-ct/cont-ct";
+@import "cont-equipos/cont-equipos";
+@import "galerias/galerias";
+@import "carrusel/carrusel";
+@import "footer/footer";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');

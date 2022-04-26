@@ -1,0 +1,18 @@
+
+.contenedor {
+
+    .texto1__main {
+        font-family: $fuente-principal;
+        font-size: $fuente-size-titulos;
+        text-align: center;
+        margin-top: 2cm;
+        text-shadow: $sombras;
+        color: $color-backgroundtextos;
+    }
+}
+
+.card.p-4 {
+    translate: 450px;
+}
+
+
